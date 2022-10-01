@@ -11,7 +11,7 @@ const DataStoreProvider = ({ children }) => {
 	});
 
 	const fetchUsers = async () => {
-		await fetch("http://www.reddit.com/r/pics/.json?jsonp=")
+		await fetch("https://www.reddit.com/r/pics/.json?jsonp=")
 			.then((res) => res.json())
 			.then((data) =>
 				dataDispatch({ type: "INITIAL_DATA", payload: data.data.children })
