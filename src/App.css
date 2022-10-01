@@ -1,3 +1,117 @@
 .App {
 	text-align: center;
 }
+
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.filter-container {
+	width: 15%;
+	padding: 2rem;
+	min-height: 100vh;
+	background-color: gainsboro;
+}
+
+.filter-container > div {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+label {
+	font-size: 1.5rem;
+}
+
+.list-container {
+	width: 85%;
+	text-align: center;
+	padding: 2rem;
+	background-color: aliceblue;
+}
+
+.list-container > h1 {
+	margin-bottom: 2rem;
+}
+
+.list-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.card {
+	width: 25rem;
+}
+
+.card img {
+	width: 25rem;
+	height: 15rem;
+	cursor: pointer;
+}
+
+.title {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.card > div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card > div > h4 {
+	margin-top: 1rem;
+}
+
+.single-container {
+	width: 45%;
+}
+
+.single-wrapper {
+	width: 100%;
+	position: relative;
+}
+
+.single-wrapper img {
+	width: 100%;
+	height: 40rem;
+}
+
+.single-wrapper > h1,
+h2 {
+	padding: 1rem;
+}
+
+.single-container > a > button {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	width: 5rem;
+	padding: 1rem;
+	color: white;
+	background-color: black;
+	border: none;
+	cursor: pointer;
+}
