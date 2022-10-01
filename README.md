@@ -9,7 +9,12 @@
 - React Hooks (useState, useEffect, useContext, useReducer)
 - Vanilla Css
 
-<!-- CONTRIBUTING -->
+### Clone Repository
+
+1. Open Git Bash.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Type git clone, and then paste the URL of the repository that you want to clone i.e git clone https://github.com/RahullRawat/pic-browser.git
+4. Press Enter to create your local clone.
 
 ## Contributing
 
