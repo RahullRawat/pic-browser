@@ -9,12 +9,18 @@
 - React Hooks (useState, useEffect, useContext, useReducer)
 - Vanilla Css
 
+### API Used
+
+- [Api Link](https://www.reddit.com/r/pics/.json?jsonp=)
+
 ### Clone Repository
 
 1. Open Git Bash.
 2. Change the current working directory to the location where you want the cloned directory.
 3. Type git clone, and then paste the URL of the repository that you want to clone i.e git clone https://github.com/RahullRawat/pic-browser.git
 4. Press Enter to create your local clone.
+5. Run npm install to install node modules
+6. Finally npm start to run the project
 
 ## Contributing
 
